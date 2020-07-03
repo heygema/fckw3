@@ -2,9 +2,9 @@
 Just Hide w3schools results from search query.
 */
 
-const w3 = "w3scho";
-const w3pattern = /(w3schoo)/gi;
-const w3spattern = /(w3schools)/gi;
+var w3 = "w3scho";
+var w3pattern = /(w3schoo)/gi;
+var w3spattern = /(w3schools)/gi;
 
 var currentPath = window.location.href;
 
