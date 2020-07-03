@@ -5,7 +5,7 @@
   "version": "1.0",
   "homepage_url": "https://github.com/heygema/fckw3",
   "icons": {
-    "48": "icons/icon-48.png"
+    "48": "icons/fckw3-48.png"
   },
 
   "content_scripts": [
