@@ -10,7 +10,7 @@ var currentPath = window.location.href;
 
 if (w3pattern.test(currentPath) || w3spattern.test(currentPath)) {
   var newPath = currentPath.replace(w3pattern, "__this_one__");
-  var newPath = currentPath.replace(w3spattern, "__this_one__");
+  newPath = currentPath.replace(w3spattern, "__this_one__");
   newPath = newPath.split("__this_one__").join("mozilla+mdn");
   window.location.href = newPath;
 }
